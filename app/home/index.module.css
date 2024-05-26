@@ -1,0 +1,667 @@
+.wrapper .btnPurpleS {
+    background-color: #6366f1;
+    border: 1px solid #6366f1;
+    color: #f0efe9;
+    padding: 6.5px 23px;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    box-shadow: rgb(207, 207, 207) 0px 1px 1px 1px;
+  }
+  
+  .wrapper .btnPurpleS i {
+    margin-right: 4px;
+    font-size: 0.9em;
+  }
+  
+  .wrapper .btnPurpleS:hover {
+    background-color: #effcf1;
+    border: 1px solid #eff2fc;
+    color: #191919;
+    transition: 0.4s;
+  }
+
+  .wrapper header {
+    padding-top: 20px;
+  }
+  
+  .wrapper header .container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto auto;
+  }
+  
+  .wrapper header .menu {
+    position: relative;
+    left: -80px;
+  }
+  
+  .wrapper header .menu a {
+    color: #33354d;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .wrapper header .switch {
+    display: flex;
+    padding-top: 7px;
+    position: relative;
+    left: 185px;
+    top: 3px;
+  }
+  
+  .wrapper header .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .wrapper header .switch label {
+    position: relative;
+  }
+  
+  .wrapper header .switch label .sliderRound {
+    display: inline-block;
+    width: 68px;
+    height: 33px;
+    background-color: #565973;
+    border-radius: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+  }
+  
+  .wrapper header .switch label .sliderRound::before {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 29px;
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 200px;
+    top: 2px;
+    left: 2px;
+  }
+  
+  .wrapper header .switch label input:checked + .sliderRound {
+    background-color: #6366f1;
+  }
+  
+  .wrapper header .switch label input:checked + .sliderRound::before {
+    transform: translateX(34px);
+  }
+  
+  .wrapper header .switch p {
+    color: #565973;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .wrapper header .switch .lightSwitch {
+    padding-right: 10px;
+    padding-top: 3px;
+  }
+  
+  .wrapper header .switch .darkSwitch {
+    padding-left: 12px;
+    padding-top: 3px;
+  }
+  
+  .wrapper header .menuButtons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .wrapper header .menuButtons a {
+    text-decoration: none;
+    position: relative;
+    left: 110px;
+    height: 40px;
+  }
+  
+ 
+  .wrapper main .management {
+    padding-top: 125px;
+    padding-bottom: 315px;
+  }
+  
+  .wrapper main .management .container {
+    display: grid;
+  }
+  
+  .wrapper main .management .container h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #0b0f19;
+    margin-right: 850px;
+  }
+  
+  .wrapper main .management .container .headerP {
+    color: #565973;
+    padding-top: 30px;
+    font-weight: 450;
+    font-size: 18px;
+    background-color: pink;
+  }
+  
+  .wrapper main .management .container .headerPP {
+    color: #565973;
+    position: relative;
+    top: -12px;
+    font-weight: 450;
+    font-size: 18px;
+    padding-bottom: 25px;
+  }
+  
+  .wrapper main .management .container button {
+    padding: 12px 30px;
+    position: relative;
+    left: -1px;
+    margin-bottom: 130px;
+  }
+  
+  .wrapper main .management .container .taskText {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .wrapper main .management .container .logo1 {
+    margin-left: 35px;
+  }
+  
+  .wrapper main .management .container .logo2 {
+    margin-left: 35px;
+  }
+  
+  .wrapper main .management .container .logo3 {
+    margin-left: 35px;
+  }
+  
+  .wrapper main .management .container .headerImage {
+    position: absolute;
+    left: 895px;
+    bottom: -100px;
+  }
+  
+  .wrapper main .benefits {
+    background-color: #e2e5f1;
+  }
+  
+  .wrapper main .benefits .container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  
+  .wrapper main .benefits .container .benefitsText {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .wrapper main .benefits .container .benefitsText h2 {
+    color: #0b0f19;
+    font-weight: 700;
+    font-size: 45px;
+  }
+  
+  .wrapper main .benefits .container .benefitsText p {
+    color: #9397ad;
+    font-weight: 400;
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  
+  .wrapper main .benefits .container .benefitsText .benefSubtext {
+    position: relative;
+    left: 285px;
+    top: -34px;
+    font-size: 20px;
+  }
+  
+  .wrapper main .benefits .container .iconContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .wrapper main .benefits .container .iconContent h6 {
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 6px;
+  }
+  
+  .wrapper main .benefits .container .iconContent img {
+    margin-bottom: 35px;
+  }
+  
+  .wrapper main .benefits .container .iconContent .iconBox1 {
+    padding: 45px;
+  }
+  
+  .wrapper main .benefits .container .iconContent .iconBox1:hover {
+    background-color: #eff2fc;
+  }
+  
+  .wrapper main .benefits .container .iconContent .iconBox2 {
+    padding: 45px;
+    border: 2px solid black;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+    border-color: #9397ad;
+  }
+  
+  .wrapper main .benefits .container .iconContent .iconBox2:hover {
+    background-color: #eff2fc;
+  }
+  
+  .wrapper main .benefits .container .iconContent .iconBox3 {
+    padding: 45px;
+    border: 2px solid black;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+    border-color: #9397ad;
+  }
+  
+  .wrapper main .benefits .container .iconContent .iconBox3:hover {
+    background-color: #eff2fc;
+  }
+  
+  .wrapper main .benefits .container .iconContent .iconBox4 {
+    padding: 45px;
+    border: 2px solid black;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    border-color: #9397ad;
+  }
+  
+  .wrapper main .benefits .container .iconContent .iconBox4:hover {
+    background-color: #eff2fc;
+  }
+  
+  .wrapper main .benefits .container .iconContent .iconBox5 {
+    padding: 45px;
+    border: 2px solid black;
+    border-right: none;
+    border-bottom: none;
+    border-color: #9397ad;
+  }
+  
+  .wrapper main .benefits .container .iconContent .iconBox5:hover {
+    background-color: #eff2fc;
+  }
+  
+  .wrapper main .benefits .container .iconContent .iconBox6 {
+    padding: 45px;
+    border: 2px solid black;
+    border-right: none;
+    border-bottom: none;
+    border-color: #9397ad;
+  }
+  
+  .wrapper main .benefits .container .iconContent .iconBox6:hover {
+    background-color: #eff2fc;
+  }
+  
+  .wrapper main .sliderSection {
+    padding-top: 120px;
+    height: 988px;
+    background: linear-gradient(to right, #0b0f19 0%, #0b0f19 50%, white 50%, white 100%);
+  }
+  
+  .wrapper main .sliderSection .container .textSides {
+    display: flex;
+    padding-left: 275px;
+    gap: 30px;
+  }
+  
+  .wrapper main .sliderSection .container .textSides .darkSide {
+    color: white;
+    font-size: 50px;
+  }
+  
+  .wrapper main .sliderSection .container .textSides .lightSide {
+    font-size: 50px;
+  }
+  
+  .wrapper main .sliderSection .container .btnNLine button {
+    display: inline-block;
+    border-radius: 100%;
+    box-shadow: none;
+    padding: 8px;
+    font-size: 15px;
+    position: relative;
+    left: 626.3px;
+    top: -135px;
+    z-index: 2;
+  }
+  
+  .wrapper main .sliderSection .container .btnNLine button:hover {
+    background-color: #6366f1;
+    border: 1px solid #6366f1;
+  }
+  
+  .wrapper main .sliderSection .container .btnNLine button i {
+    margin-left: 4px;
+  }
+  
+  .wrapper main .sliderSection .container .btnNLine img {
+    position: relative;
+    left: 601px;
+    top: -188px;
+    z-index: 1;
+  }
+  
+  .wrapper main .sliderSection .container img {
+    position: absolute;
+    top: 2380px;
+    right: 418px;
+    z-index: 0;
+  }
+  
+  .wrapper main .content {
+    padding-top: 120px;
+    padding-bottom: 100px;
+  }
+  
+  .wrapper main .content .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .wrapper main .content .container img {
+    margin-right: 60px;
+    position: relative;
+    left: -50px;
+  }
+  
+  .wrapper main .content .container .manageWorkText {
+    padding-top: 120px;
+  }
+  
+  .wrapper main .content .container .manageWorkText h3 {
+    padding-bottom: 35px;
+    font-size: 38px;
+    font-weight: 700;
+  }
+  
+  .wrapper main .content .container .manageWorkText p {
+    color: #9397ad;
+    font-size: 17px;
+  }
+  
+  .wrapper main .content .container .manageWorkText p i {
+    color: #6366f1;
+    padding-right: 8px;
+  }
+  
+  .wrapper main .content .container .manageWorkText button {
+    margin-top: 35px;
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 30px;
+  }
+  
+  .wrapper main .content .container .manageWorkText button i {
+    margin-left: 10px;
+    padding-right: 15px;
+  }
+  
+  .wrapper main .phoneApps {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #eff2fc;
+  }
+  
+  .wrapper main .phoneApps .container .iphoneScreen img {
+    padding-left: 50px;
+  }
+  
+  .wrapper main .phoneApps .container .appText {
+    position: absolute;
+    right: 380px;
+    top: 4075px;
+  }
+  
+  .wrapper main .phoneApps .container .appText h2 {
+    font-size: 47px;
+    font-weight: 700;
+  }
+  
+  .wrapper main .phoneApps .container .appText p {
+    color: #9397ad;
+    font-size: 18px;
+  }
+  
+  .wrapper main .phoneApps .container .appText h4 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  
+  .wrapper main .phoneApps .container .appText .ratingText {
+    color: #565973;
+    padding-bottom: 35px;
+  }
+  
+  .wrapper main .phoneApps .container .appText .starReviews {
+    color: #ffba08;
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 10px;
+  }
+  
+  .wrapper main .phoneApps .container .appText .downloadApp {
+    position: absolute;
+    left: 250px;
+    top: 258px;
+  }
+  
+  .wrapper main .phoneApps .container .appText .downloadPlay {
+    position: absolute;
+    left: 250px;
+    top: 450px;
+  }
+  
+  .wrapper main .phoneApps .container .appText .appStore {
+    margin-top: 50px;
+  }
+  
+  .wrapper main .tools {
+    padding-top: 120px;
+  }
+  
+  .wrapper main .tools .container .toolText {
+    text-align: center;
+  }
+  
+  .wrapper main .tools .container .toolText h3 {
+    color: #0b0f19;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 25px;
+  }
+  
+  .wrapper main .tools .container .toolText p {
+    color: #9397ad;
+    font-size: 18px;
+  }
+  
+  .wrapper main .tools .container .toolText .secondToolText {
+    position: relative;
+    bottom: 13px;
+    padding-bottom: 50px;
+  }
+  
+  .wrapper main .tools .container .toolApps {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: 100px;
+  }
+  
+  .wrapper main .tools .container .toolApps .borders:hover {
+    background-color: #eff2fc;
+  }
+  
+  .wrapper main .tools .container .toolApps img {
+    padding-bottom: 25px;
+    padding-left: 75px;
+    position: relative;
+    top: 40px;
+    left: -30px;
+  }
+  
+  .wrapper main .tools .container .toolApps p {
+    padding-bottom: 80px;
+    padding-left: 75px;
+    position: relative;
+    top: 40px;
+    left: -30px;
+  }
+  
+  .wrapper main .tools .container .toolApps .weirdText {
+    padding-top: 12px;
+  }
+  
+  .wrapper main .subscribe {
+    background-color: #eff2fc;
+    padding-bottom: 120px;
+  }
+  
+  .wrapper main .subscribe .container .subscribeHead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 110px;
+  }
+  
+  .wrapper main .subscribe .container .subscribeHead h3 {
+    font-size: 48px;
+    font-weight: 700;
+  }
+  
+  .wrapper main .subscribe .container .subscribeHead img {
+    padding-left: 30px;
+    margin-top: 10px;
+  }
+  
+  .wrapper main .subscribe .container .signupNewsletter {
+    position: relative;
+    left: 270px;
+    bottom: -90px;
+  }
+  
+  .wrapper main .subscribe .container .signupNewsletter h4 {
+    font-weight: 700;
+  }
+  
+  .wrapper main .subscribe .container .newsletter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 460px;
+  }
+  
+  .wrapper main .subscribe .container .newsletter #backupAbit {
+    padding-left: 60px;
+  }
+  
+  .wrapper main .subscribe .container .newsletter .changePlace {
+    position: relative;
+    bottom: 25px;
+  }
+  
+  .wrapper main .subscribe .container .newsletter #changePlace2 {
+    padding-left: 35px;
+  }
+  
+  .wrapper main .subscribe .container .newsletter .checkboxColor {
+    display: block;
+    position: relative;
+    top: 23px;
+    width: 20px;
+    height: 20px;
+    accent-color: #6366f1;
+    cursor: pointer;
+  }
+  
+  .wrapper main .subscribe .container .newsletter p {
+    padding-left: 30px;
+    color: #565973;
+    font-size: 16px;
+  }
+  
+  .wrapper main .subscribe .container .subscribeEmail {
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+    padding-left: 270px;
+    padding-bottom: 10px;
+  }
+  
+  .wrapper main .subscribe .container .subscribeEmail input {
+    height: 50px;
+    width: 770px;
+    padding-right: 100px;
+    border-radius: 5px;
+    padding: 20px 45px 20px 20px;
+    border: 1px solid #d4d7e5;
+  }
+  
+  .wrapper main .subscribe .container .subscribeEmail button {
+    height: 50px;
+    width: 150px;
+  }
+  
+  .wrapper main .subscribe .container .lineUnderNone {
+    padding-left: 275px;
+    text-decoration: none;
+  }
+  
+  .wrapper footer {
+    padding-top: 100px;
+  }
+  
+  .wrapper footer .container .socialMedias {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+  
+  .wrapper footer .container .socialMedias a {
+    background-color: #eff2fc;
+    border-radius: 7px;
+  }
+  
+  .wrapper footer .container .socialMedias a:hover {
+    background-color: #c5d2ff;
+    transition: 0.3s;
+  }
+  
+  .wrapper footer .container .socialMedias a i {
+    margin: 15px 17.5px 15px 17.5px;
+    font-size: 20px;
+    color: #33354d;
+  }
+  
+  .wrapper footer .container p {
+    text-align: center;
+    font-size: 18px;
+    color: #9397ad;
+  }
+  
+  .wrapper footer .container .footerRights {
+    padding-bottom: 50px;
+    position: relative;
+    bottom: 12px;
+  }
+  

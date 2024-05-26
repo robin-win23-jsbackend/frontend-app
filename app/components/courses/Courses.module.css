@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&family=Inter:wght@300;400;500;700;900&display=swap");
+
+
+.Wrapper .BtnPurpleS {
+  background-color: #6366f1;
+  border: 1px solid #6366f1;
+  color: #f0efe9;
+  padding: 6.5px 23px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  box-shadow: rgb(207, 207, 207) 0px 1px 1px 1px;
+}
+
+.Wrapper .BtnPurpleS i {
+  margin-right: 4px;
+  font-size: 0.9em;
+}
+
+.Wrapper .BtnPurpleS:hover {
+  background-color: #EFF2FC;
+  border: 1px solid #EFF2FC;
+  color: #191919;
+  transition: 0.3s;
+}
+
+.Wrapper .BtnWhiteS {
+  position: relative;
+  margin-right: 10px;
+  background-color: #EFF2FC;
+  border: 1px solid #EFF2FC;
+  color: #191919;
+  padding: 6.5px 23px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  box-shadow: rgb(207, 207, 207) 0px 1px 1px 1px;
+}
+
+.Wrapper .BtnWhiteS i {
+  margin-right: 4px;
+  font-size: 0.9em;
+}
+
+.Wrapper .BtnWhiteS:hover {
+  background-color: #6366f1;
+  border: 1px solid #6366f1;
+  color: #f0efe9;
+  transition: 0.3s;
+}
+
+.MainHeader {
+  padding-top: 80px;
+}
+
+.Container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto auto auto;
+}
+
+.HomeNav {
+  text-decoration: none;
+  color: #9397AD;
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+.HomeNav i {
+  font-size: 16px;
+  position: relative;
+  top: -2px;
+}
+
+.HomeNav:hover {
+  color: #6366f1;
+}
+
+.CoursesNav {
+  font-size: 18px;
+  color: #6366f1;
+  padding-left: 10px;
+}
+
+.ArrowsRight {
+  font-size: 11px;
+  position: relative;
+  top: -1px;
+}
+
+.CoursesHead {
+  display: flex;
+  padding-top: 30px;
+}
+
+.CoursesHead h2 {
+  font-size: 48px;
+  font-weight: 700;
+  padding-right: 543px;
+}
+
+.CourseHeadInfo {
+  padding-left: 25px;
+}
+
+.CourseHeadInfo input,
+.CourseHeadInfo select {
+  height: 40px;
+  width: 240px;
+  border-radius: 5px;
+  padding: 20px 45px 20px 20px;
+  border: 1px solid #D4D7E5;
+}
+
+.CategoryCourse {
+  color: #4e5068;
+}
+
+.SearchCourse {
+  width: 300px;
+}
+
+.CourseHeadInfo i {
+  position: relative;
+  left: 205px;
+  bottom: 33px;
+}
+
+.MagGlass {
+  position: relative;
+  left: 265px;
+  bottom: 33px;
+}
+
+.CourseCards {
+  padding-top: 50px;
+}
+
+.AllCourses {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 45px;
+  gap: 30px;
+}
+
+.BestSellers {
+  border: 1px solid #22C55E;
+  width: 100px;
+  text-align: center;
+  background-color: #22C55E;
+  border-radius: 5px;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 765px;
+}
+
+.BestSellers2 {
+  border: 1px solid #22C55E;
+  width: 100px;
+  text-align: center;
+  background-color: #22C55E;
+  border-radius: 5px;
+  color: white;
+  position: absolute;
+  top: 355px;
+  left: 320px;
+}
+
+.CourseLine {
+  padding-bottom: 10px;
+}
+
+.CourseLine img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.CourseText1 {
+  box-shadow: rgb(207, 207, 207) 0px 0px 12px 0px;
+  width: 415.2px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-top: 23px;
+}
+
+.OrgPrice {
+  color: #9397AD;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  top: 701px;
+  right: 445px;
+}
+
+.OrgPrice2 {
+  color: #9397AD;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  bottom: -916px;
+  left: 705px;
+}
+
+.CourseText1 h5 {
+  font-size: 22px;
+  font-weight: 700;
+  padding-left: 22px;
+  padding-right: 22px;
+  color: #33354D;
+}
+
+.CourseText1 h5:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.CourseText1 p {
+  color: #565973;
+  padding-left: 22px;
+  padding-top: 5px;
+}
+
+.AuthorText:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.PurpleCourseText {
+  color: #6366f1;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  bottom: 10px;
+}
+
+.RedCourseText {
+  color: #EF4444;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  bottom: 10px;
+}
+
+.CourseText1 img {
+  position: relative;
+  left: 22px;
+  bottom: 15px;
+}
+
+.CourseHours {
+  display: flex;
+}
+
+.CourseHours p {
+  color: #9397AD;
+  padding-bottom: 15px;
+}
+
+.Pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 110px;
+}
+
+.Pagination p {
+  padding: 20px;
+  padding-top: 8px;
+  font-size: 20px;
+  height: 48px;
+  width: 50px;
+}
+
+.Pagination p:hover {
+  cursor: pointer;
+  background-color: #EFF2FC;
+  border-radius: 7px;
+  transition: 0.3s;
+}
+
+.Pagination p i {
+  font-size: 12px;
+  position: relative;
+  bottom: 2px;
+}
+
+.NumberGray {
+  background-color: #EFF2FC;
+  border-radius: 7px;
+  margin-left: 10px;
+}
+
+.NumberGray:hover {
+  cursor: pointer;
+  background-color: #c5d2ff;
+  transition: 0.3s;
+}
+
+.NumberPurple {
+  background-color: #6366f1;
+  color: white;
+  border-radius: 7px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.NumberPurple:hover {
+  cursor: pointer;
+  background-color: #EFF2FC;
+  color: #33354D;
+  transition: 0.3s;
+}
+
+.Banner {
+  padding-bottom: 20px;
+}
+
+.Banner .Container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #F3F6FF;
+}
+
+.BannerText {
+  padding-top: 60px;
+  padding-left: 80px;
+}
+
+.BannerText p {
+  padding-top: 50px;
+  font-size: 22px;
+  color: #565973;
+}
+
+.BannerText h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.PurpleBanner {
+  position: absolute;
+  left: 600px;
+  bottom: -1451px;
+  color: #6366f1;
+}
+
+.NormalBanner {
+  position: absolute;
+  left: 720px;
+  bottom: -1451px;
+}
+
+.BannerText button {
+  margin-top: 40px;
+  width: 170px;
+  height: 50px;
+}
+
+.Banner img {
+  margin: 60px;
+  padding-left: 80px;
+}

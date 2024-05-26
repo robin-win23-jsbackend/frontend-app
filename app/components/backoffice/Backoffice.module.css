@@ -1,0 +1,86 @@
+.Main {
+    /* Se till att Main tar upp hela höjden på sidan för vertikal centrering */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100% av viewport höjden */
+}
+
+.Container {
+    /* Se till att Container är flexbox och centrerar dess innehåll */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 400px;
+    width: 100%;
+    padding: 20px; /* Lägg till padding om du vill ha lite utrymme runt kanterna */
+}
+
+.AccountDetails {
+    /* Lägg till maxbredd för att begränsa storleken på AccountDetails */
+    max-width: 400px; /* Justera maxbredden efter behov */
+    width: 100%; /* Ta upp hela bredden av föräldern upp till maxbredden */
+    padding: 20px; /* Lägg till padding om du vill ha utrymme inuti AccountDetails */
+    background-color: #fff; /* Valfritt: Lägg till en bakgrundsfärg om det behövs */
+    border-radius: 8px; /* Valfritt: Lägg till rundade hörn */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Valfritt: Lägg till en skugga för bättre visuellt utseende */
+}
+
+.FormDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.FormPositioning {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 400px; /* Justerar maxbredden på inputfälten */
+}
+
+.FormPositioning label {
+    font-weight: bold; /* Gör label-texten fet för bättre läsbarhet */
+}
+
+.FormPositioning input,
+.FormPositioning textarea {
+    width: 100%; /* Ser till att inputfälten tar upp hela bredden av sin container */
+    padding: 0.5rem; /* Lägger till padding för bättre användarupplevelse */
+    border: 1px solid #ccc; /* Lägger till en kant runt inputfälten */
+    border-radius: 4px; /* Rundar hörnen på inputfälten */
+}
+
+.AccButtons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.BtnPurpleS {
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.BtnPurpleS:hover {
+    background-color: #49496d;
+}
+
+.BtnWhiteS {
+    background-color: white;
+    color: #6a1b9a;
+    border: 1px solid #6a1b9a;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.BtnWhiteS:hover {
+    background-color: #f3e5f5;
+}

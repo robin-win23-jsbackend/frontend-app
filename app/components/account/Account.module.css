@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&family=Inter:wght@300;400;500;700;900&display=swap");
+
+
+
+.Main {
+  padding-top: 20px;
+}
+
+.Container {
+  display: flex;
+}
+
+.AccountProfile {
+  width: 340px;
+  border: 2px solid;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  border-color: #E2E5F1;
+  height: 1180px;
+}
+
+.AccProfileInfo {
+  padding-left: 10px;
+  padding-top: 40px;
+}
+
+.AccProfileInfo img {
+  width: 130px;
+  margin-left: 90px;
+}
+
+.AccProfileInfo #acc-btn-1 {
+  display: inline-block;
+  border-radius: 100%;
+  padding: 6px;
+  width: 35px;
+  position: relative;
+  bottom: -45px;
+  left: -42px;
+}
+
+.AccProfileInfo #acc-btn-1 i {
+  position: relative;
+  left: 2px;
+}
+
+.AccProfileInfo h4 {
+  font-size: 22px;
+  font-weight: 700;
+  padding-top: 15px;
+  margin-left: 105px;
+}
+
+.AccProfileInfo p {
+  margin-left: 70px;
+}
+
+.AccBtnsDetails {
+  padding-top: 20px;
+}
+
+.AccBtnsDetails button {
+  width: 320px;
+  height: 45px;
+  text-align: start;
+  font-size: 18px;
+  margin-bottom: 13px;
+}
+
+.AccBtnsDetails button i {
+  padding-right: 6px;
+}
+
+.AccBtnsDetails a {
+  text-decoration: none;
+}
+
+.AccBtnsDetails a p {
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  width: 320px;
+  height: 45px;
+  border-radius: 8px;
+  color: #33354D;
+}
+
+.AccBtnsDetails a p:hover {
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+  background-color: #6366f1;
+}
+
+.AccBtnsDetails a p i {
+  padding-left: 23px;
+  padding-right: 8px;
+}
+
+.AccountDetails {
+  position: absolute;
+  left: 740px;
+  bottom: -265px;
+  width: 855px;
+}
+
+.AccountDetails h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.AccountDetails h6 {
+  font-size: 23px;
+  color: #6366f1;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.BasicInfo {
+  border: 1px solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #E2E5F1;
+}
+
+.FormDetails {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.FormPositioning {
+  position: relative;
+  bottom: 15px;
+}
+
+.FormPositioning2 {
+  position: relative;
+  bottom: 30px;
+}
+
+.FormDetails p {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.FormDetails input {
+  height: 40px;
+  width: 413px;
+  border-radius: 5px;
+  padding: 20px 45px 20px 20px;
+  border: 1px solid #D4D7E5;
+  position: relative;
+  bottom: 12px;
+}
+
+.FormDetails textarea {
+  width: 207%;
+  height: 100px;
+  padding: 10px 20px 20px 20px;
+  border-radius: 5px;
+  border: 1px solid #D4D7E5;
+  resize: none;
+  position: relative;
+  bottom: 12px;
+}
+
+.AccButtons {
+  padding-bottom: 20px;
+  position: relative;
+  bottom: 15px;
+}
+
+.AccAddress {
+  padding-top: 20px;
+  border: 1px solid;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-color: #E2E5F1;
+}
+
+.AccAddress p {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.AddressPadding {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.AccAddress input {
+  height: 40px;
+  width: 413px;
+  border-radius: 5px;
+  padding: 20px 45px 20px 20px;
+  border: 1px solid #D4D7E5;
+  position: relative;
+  bottom: 12px;
+}
+
+.AddressInput {
+  height: 40px;
+  width: 100%;
+}
+
+.FormDetails2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.AccButtons {
+  margin-top: 40px;
+}
+
+.BtnPurpleS {
+  background-color: #6366f1;
+  border: 1px solid #6366f1;
+  color: #f0efe9;
+  padding: 6.5px 23px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  box-shadow: rgb(207, 207, 207) 0px 1px 1px 1px;
+}
+
+.BtnPurpleS i {
+  margin-right: 4px;
+  font-size: 0.9em;
+}
+
+.BtnPurpleS:hover {
+  background-color: #EFF2FC;
+  border: 1px solid #EFF2FC;
+  color: #191919;
+  transition: 0.3s;
+}
+
+.BtnWhiteS {
+  position: relative;
+  margin-right: 10px;
+  background-color: #EFF2FC;
+  border: 1px solid #EFF2FC;
+  color: #191919;
+  padding: 6.5px 23px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  box-shadow: rgb(207, 207, 207) 0px 1px 1px 1px;
+}
+
+.BtnWhiteS i {
+  margin-right: 4px;
+  font-size: 0.9em;
+}
+
+.BtnWhiteS:hover {
+  background-color: #6366f1;
+  border: 1px solid #6366f1;
+  color: #f0efe9;
+  transition: 0.3s;
+}

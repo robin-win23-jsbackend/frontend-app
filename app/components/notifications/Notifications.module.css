@@ -1,0 +1,235 @@
+.container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .accountProfile {
+    width: 340px;
+    border: 2px solid;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-color: #E2E5F1;
+    height: 900px;
+    padding-left: 10px;
+  }
+  
+  .accProfileInfo {
+    padding-top: 40px;
+  }
+  
+  .accProfileInfo img {
+    width: 130px;
+    margin-left: 90px;
+  }
+  
+  #accBtn1 {
+    display: inline-block;
+    border-radius: 100%;
+    padding: 6px;
+    width: 35px;
+    position: relative;
+    bottom: -45px;
+    left: -42px;
+  }
+  
+  #accBtn1 i {
+    position: relative;
+    left: 2px;
+  }
+  
+  .accProfileInfo h4 {
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 15px;
+    margin-left: 105px;
+  }
+  
+  .accProfileInfo p {
+    margin-left: 70px;
+  }
+  
+  .accBtnsDetails {
+    padding-top: 20px;
+  }
+  
+  .accBtnsDetails button {
+    width: 320px;
+    height: 45px;
+    text-align: start;
+    font-size: 18px;
+    margin-bottom: 13px;
+  }
+  
+  .accBtnsDetails button i {
+    padding-right: 6px;
+  }
+  
+  .accBtnsDetails a {
+    text-decoration: none;
+  }
+  
+  .accBtnsDetails a p {
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 320px;
+    height: 45px;
+    border-radius: 8px;
+    color: #33354D;
+  }
+  
+  .accBtnsDetails a p:hover {
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+    background-color: #6366f1;
+  }
+  
+  .accBtnsDetails a p i {
+    padding-left: 23px;
+    padding-right: 8px;
+  }
+  
+  .notifications {
+    position: absolute;
+    left: 740px;
+    bottom: 90px;
+    width: 860px;
+  }
+  
+  .notifications h2 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  .emailNotify {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .emailNotify p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .emailNotify input {
+    height: 50px;
+    width: 413px;
+    border-radius: 5px;
+    padding: 20px 45px 20px 20px;
+    border: 1px solid #D4D7E5;
+    position: relative;
+    bottom: 12px;
+    font-size: 18px;
+  }
+  
+  .subNotify {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .notiSliders {
+    position: relative;
+  }
+  
+  .sliderRound {
+    display: inline-block;
+    width: 68px;
+    height: 33px;
+    background-color: #565973;
+    border-radius: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+  }
+  
+  .sliderRound::before {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 29px;
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 200px;
+    top: 2px;
+    left: 2px;
+  }
+  
+  .notiSliders input {
+    width: 100px;
+    display: none;
+  }
+  
+  .notiSliders input:checked + .sliderRound {
+    background-color: #22C55E;
+  }
+  
+  .notiSliders input:checked + .sliderRound::before {
+    transform: translateX(34px);
+  }
+  
+  .notifySliderText h6 {
+    font-weight: 700;
+    font-size: 17px;
+  }
+  
+  .notifySliderText p {
+    color: #9397AD;
+  }
+  
+  .accButtons {
+    padding-top: 300px;
+  }
+  
+  .btnPurpleS {
+    background-color: #6366f1;
+    border: 1px solid #6366f1;
+    color: #f0efe9;
+    padding: 6.5px 23px;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    box-shadow: rgb(207, 207, 207) 0px 1px 1px 1px;
+  }
+  
+  .btnPurpleS i {
+    margin-right: 4px;
+    font-size: 0.9em;
+  }
+  
+  .btnPurpleS:hover {
+    background-color: #EFF2FC;
+    border: 1px solid #EFF2FC;
+    color: #191919;
+    transition: 0.3s;
+  }
+  
+  .btnWhiteS {
+    position: relative;
+    margin-right: 10px;
+    background-color: #EFF2FC;
+    border: 1px solid #EFF2FC;
+    color: #191919;
+    padding: 6.5px 23px;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    box-shadow: rgb(207, 207, 207) 0px 1px 1px 1px;
+  }
+  
+  .btnWhiteS i {
+    margin-right: 4px;
+    font-size: 0.9em;
+  }
+  
+  .btnWhiteS:hover {
+    background-color: #6366f1;
+    border: 1px solid #6366f1;
+    color: #f0efe9;
+    transition: 0.3s;
+  }
+  

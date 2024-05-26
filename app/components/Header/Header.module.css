@@ -1,0 +1,31 @@
+/* Header.module.css */
+.header {
+    padding-top: 20px;
+}
+
+.siliconLogo {
+    display: flex;
+    align-items: center;
+    
+  }
+
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto auto;
+}
+
+.menu {
+    position: relative;
+    left: -80px;
+}
+
+.menu a {
+    color: #33354D;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+

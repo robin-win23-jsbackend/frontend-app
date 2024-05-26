@@ -1,0 +1,142 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .signinText {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .signinText h2 {
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 15px;
+  }
+  
+  .signinText p {
+    font-size: 18px;
+  }
+  
+  .signinText p a {
+    text-decoration: none;
+    color: #6366f1;
+  }
+  
+  .signinform {
+    padding-top: 20px;
+  }
+  
+  .signinform p {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  .signinform input {
+    height: 40px;
+    width: 490px;
+    border-radius: 5px;
+    padding: 20px 45px 20px 20px;
+    border: 1px solid #d4d7e5;
+    position: relative;
+    bottom: 5px;
+  }
+  
+  .signinPassword {
+    padding-top: 20px;
+  }
+  
+  .rembmeCheckbox {
+    display: flex;
+    gap: 15px;
+    padding-top: 3px;
+  }
+  
+  .rembmeCheckbox input {
+    width: 17px;
+    accent-color: #6366f1;
+    cursor: pointer;
+  }
+  
+  .rembmeCheckbox p {
+    margin-top: 15px;
+    font-size: 17px;
+    color: #565973;
+  }
+  
+  .signinButtons {
+    padding-top: 15px;
+    text-align: center;
+  }
+  
+  .signinButtons button {
+    width: 100%;
+    height: 45px;
+  }
+  
+  .signinButtons p {
+    padding-top: 18px;
+    text-align: center;
+  }
+  
+  .signinButtons p a {
+    text-decoration: none;
+    color: #6366f1;
+    font-size: 17px;
+  }
+  
+  .signinButtons p a:hover {
+    color: #191919;
+    transition: 0.3s;
+  }
+  
+  .btnPurpleS {
+    background-color: #6366f1;
+    border: 1px solid #6366f1;
+    color: #f0efe9;
+    padding: 6.5px 23px;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    box-shadow: rgb(207, 207, 207) 0px 1px 1px 1px;
+  }
+  
+  .btnPurpleS i {
+    margin-right: 4px;
+    font-size: 0.9em;
+  }
+  
+  .btnPurpleS:hover {
+    background-color: #eff2fc;
+    border: 1px solid #eff2fc;
+    color: #191919;
+    transition: 0.4s;
+  }
+  
+  .btnWhiteS {
+    background-color: #eff2fc;
+    border: 1px solid #eff2fc;
+    color: #191919;
+    padding: 6.5px 23px;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    box-shadow: rgb(207, 207, 207) 0px 1px 1px 1px;
+  }
+  
+  .btnWhiteS i {
+    margin-right: 4px;
+    font-size: 0.9em;
+  }
+  
+  .btnWhiteS:hover {
+    background-color: #6366f1;
+    border: 1px solid #6366f1;
+    color: #f0efe9;
+    transition: 0.4s;
+  }
+  
