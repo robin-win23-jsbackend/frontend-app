@@ -362,6 +362,8 @@
 }
 
 .Banner img {
+  width: 200px;
+  height: auto;
   margin: 60px;
   padding-left: 80px;
 }
